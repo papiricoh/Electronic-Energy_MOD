@@ -18,6 +18,9 @@ public class ItemInit {
 	//Material
 	public static final ArmorMaterial VOX_ARMOUR = EnumHelper.addArmorMaterial("vox_armour", Main.MODID + ":vox", 45, new int[]{5, 8, 10, 5}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 	
+	//Components
+	public static final Item NANO_CHIP = new ItemBase("nano_chip");
+	
 	//Items
 	public static final Item VOX_INGOT = new ItemBase("vox_ingot");
 	public static final Item PALLADIUM_INGOT = new ItemBase("palladium_ingot");
