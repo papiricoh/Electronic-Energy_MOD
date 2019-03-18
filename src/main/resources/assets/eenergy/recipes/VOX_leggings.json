@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OOO",
+        "O O",
+        "O O"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "eenergy:vox_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "eenergy:vox_leggings",
+        "count": 1
+    }
+}
