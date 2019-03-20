@@ -2,7 +2,7 @@ package com.papiricoh.eenergy.objects.armour;
 
 import com.papiricoh.eenergy.Main;
 import com.papiricoh.eenergy.init.ItemInit;
-import com.papiricoh.eenergy.util.IHasModel;
+import com.papiricoh.eenergy.util.interfaces.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -17,6 +17,7 @@ public class ArmourBase extends ItemArmor implements IHasModel{
 		setCreativeTab(CreativeTabs.COMBAT);
 		
 		ItemInit.ITEMS.add(this);
+
 	}
 	
 	public void registerModels() {

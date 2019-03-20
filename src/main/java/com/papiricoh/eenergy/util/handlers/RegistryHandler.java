@@ -2,7 +2,8 @@ package com.papiricoh.eenergy.util.handlers;
 
 import com.papiricoh.eenergy.init.BlockInit;
 import com.papiricoh.eenergy.init.ItemInit;
-import com.papiricoh.eenergy.util.IHasModel;
+import com.papiricoh.eenergy.util.interfaces.IHasModel;
+import com.papiricoh.eenergy.world.gen.WorldGenCustomOres;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -36,5 +38,9 @@ public class RegistryHandler {
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 	}
 }

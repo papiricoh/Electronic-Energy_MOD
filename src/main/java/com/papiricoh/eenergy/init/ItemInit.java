@@ -17,6 +17,7 @@ public class ItemInit {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	//Material
 	public static final ArmorMaterial VOX_ARMOUR = EnumHelper.addArmorMaterial("vox_armour", Main.MODID + ":vox", 45, new int[]{5, 8, 10, 5}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
+	public static final ArmorMaterial MK22_ARMOUR = EnumHelper.addArmorMaterial("mk22_armour", Main.MODID + ":mk22", 45, new int[]{5, 8, 10, 5}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 	
 	//Components
 	public static final Item NANO_CHIP = new ItemBase("nano_chip");
@@ -26,10 +27,17 @@ public class ItemInit {
 	public static final Item PALLADIUM_INGOT = new ItemBase("palladium_ingot");
 	public static final Item VIBRANIUM_INGOT = new ItemBase("vibranium_ingot");
 	public static final Item ADAMANTIUM_INGOT = new ItemBase("adamantium_ingot");
+	public static final Item RAW_ADAMANTIUM = new ItemBase("raw_adamantium");
+	
+	//Infinity Stones
 	
 	//Armor
 	public static final Item VOX_HELMET = new ArmourBase("vox_helmet", VOX_ARMOUR, 1, EntityEquipmentSlot.HEAD);
 	public static final Item VOX_CHESTPLATE = new ArmourBase("vox_chestplate", VOX_ARMOUR, 1, EntityEquipmentSlot.CHEST);
 	public static final Item VOX_LEGGINGS = new ArmourBase("vox_leggings", VOX_ARMOUR, 1, EntityEquipmentSlot.LEGS);
 	public static final Item VOX_BOOTS = new ArmourBase("vox_boots", VOX_ARMOUR, 1, EntityEquipmentSlot.FEET);
+	public static final Item MK22_HELMET = new ArmourBase("mk22_helmet", MK22_ARMOUR, 1, EntityEquipmentSlot.HEAD);
+	public static final Item MK22_CHESTPLATE = new ArmourBase("mk22_chestplate", MK22_ARMOUR, 1, EntityEquipmentSlot.CHEST);
+	public static final Item MK22_LEGGINGS = new ArmourBase("mk22_leggings", MK22_ARMOUR, 1, EntityEquipmentSlot.LEGS);
+	public static final Item MK22_BOOTS = new ArmourBase("mk22_boots", MK22_ARMOUR, 1, EntityEquipmentSlot.FEET);
 }

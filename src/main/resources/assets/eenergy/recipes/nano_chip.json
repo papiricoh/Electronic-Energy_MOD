@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AOA",
+        "ODO",
+        "AOA"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "eenergy:palladium_ingot"
+        },
+        "D":
+        {
+            "item": "minecraft:redstone"
+        },
+        "A":
+        {
+            "item": "eenergy:adamantium_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "eenergy:nano_chip",
+        "count": 1
+    }
+}

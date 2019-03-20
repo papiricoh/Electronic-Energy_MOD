@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures":{
+        "particle": "eenergy:blocks/palladium_block",
+        "up": "eenergy:blocks/palladium_block",
+        "down": "eenergy:blocks/palladium_block",
+        "north": "eenergy:blocks/palladium_block",
+        "east": "eenergy:blocks/palladium_block",
+        "south": "eenergy:blocks/palladium_block",
+        "west": "eenergy:blocks/palladium_block"
+    }
+}

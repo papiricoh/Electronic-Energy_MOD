@@ -1,0 +1,12 @@
+{
+    "variants":{
+        "burning=false,facing=north": {"model": "eenergy:vox_ore"},
+        "burning=false,facing=east": {"model": "eenergy:vox_ore", "y": 90 },
+        "burning=false,facing=south": {"model": "eenergy:vox_ore", "y": 180 },
+        "burning=false,facing=west": {"model": "eenergy:vox_ore", "y": 270 },
+        "burning=true,facing=north": {"model": "eenergy:ore_adamantium"},
+        "burning=true,facing=east": {"model": "eenergy:ore_adamantium", "y": 90 },
+        "burning=true,facing=south": {"model": "eenergy:ore_adamantium", "y": 180 },
+        "burning=true,facing=west": {"model": "eenergy:ore_adamantium", "y": 270 }
+    }
+}

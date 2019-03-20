@@ -1,0 +1,3 @@
+        if (this.isWearingFullSet(player, Armor.armorMask, Armor.armorChest, Armor.armorLegs, Armor.armorBoots)) {
+            player.capabilities.allowFlying = true;
+        }

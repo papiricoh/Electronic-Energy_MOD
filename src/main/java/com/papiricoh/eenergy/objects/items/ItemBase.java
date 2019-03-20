@@ -3,7 +3,7 @@ package com.papiricoh.eenergy.objects.items;
 import com.papiricoh.eenergy.Main;
 import com.papiricoh.eenergy.init.ItemInit;
 import com.papiricoh.eenergy.proxy.ClientProxy;
-import com.papiricoh.eenergy.util.IHasModel;
+import com.papiricoh.eenergy.util.interfaces.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
